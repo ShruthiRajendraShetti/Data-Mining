@@ -1,11 +1,3 @@
-# Data-Mining
-
-Assignment 1.1
-Colab Link - https://colab.research.google.com/drive/1xa1m0VpRoDkOYJWRFMT62eZqAf8a5DHP?usp=sharing
-
-Assignment 1.2 
-Click this link to watch the Demo of Github copilot -  https://youtu.be/5T78PV6in-Y
-
-
-Assignment 1.3
-Click this link to watch the Demo of Sentiment Analysis using Akkio.com - https://youtu.be/6_rJptY64DE
+1_Binary_Classification.ipynb -> https://colab.research.google.com/drive/1uqLlVIqm_LOKFNC5ysMn6-LFOJPnm-Y_?usp=sharing
+2_Multiclass_Classification.ipynb -> https://colab.research.google.com/drive/1o777CZltZTrVxi9-He5ILLWw9rX8wh8P?usp=sharing
+3_Regression.ipynb -> https://colab.research.google.com/drive/1sy_F1aOZ2m-hInEcxY-0QFFPPECLPq0G?usp=sharing
