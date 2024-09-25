@@ -27,6 +27,11 @@ Youtube Link -> https://youtu.be/UR-IWddY11A
 Colab -> Anomaly_Detection.ipynb -> https://colab.research.google.com/drive/1zFHGbadHf1ziKj3TsNXaBX1YNzD3VgDg?usp=sharing
 Youtube Link -> https://youtu.be/fVAn_oVn728
 
+6. Time Series - Univariate without Exogenous variable
+7. 
+Colab -> https://colab.research.google.com/drive/1AJhvngtPy7izylafr9xiOfMi6fAIfJdF?usp=sharing
+Youtube Link ->
+
 Gradio 2 Apps 
 
 Colab - >https://colab.research.google.com/drive/1jmHzeidQb31zG2fj2cgsY-Y4XNy7ytuq?usp=sharing
