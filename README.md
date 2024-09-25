@@ -32,7 +32,7 @@ Youtube Link -> https://youtu.be/fVAn_oVn728
 Colab -> https://colab.research.google.com/drive/1AJhvngtPy7izylafr9xiOfMi6fAIfJdF?usp=sharing
 Youtube Link -> https://youtu.be/zP62uue_edE
 
-Gradio 2 Apps 
+7. Gradio Two Apps 
 
 Colab - >https://colab.research.google.com/drive/1jmHzeidQb31zG2fj2cgsY-Y4XNy7ytuq?usp=sharing
-Youtube ->
+Youtube -> https://youtu.be/Kongj2EpIz8
