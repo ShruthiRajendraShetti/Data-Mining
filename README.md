@@ -7,3 +7,4 @@ Multimodal tabular -> https://colab.research.google.com/drive/1UoR2NX5KplOjlCp84
 Youtube - https://youtu.be/rcTfs7zdqcU
 
 Automatic feature engineering -> https://colab.research.google.com/drive/1B9vCQE8M0m0Y58dNZk-MCuIYnelclFvZ?usp=sharing
+Youtube - https://youtu.be/bgHCDmnHGe8
