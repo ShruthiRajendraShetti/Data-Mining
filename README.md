@@ -4,5 +4,6 @@ Tabular Classification/Regression.ipynb -> https://colab.research.google.com/dri
 Youtube - https://youtu.be/06kdHFdZ6Hc
 
 Multimodal tabular -> https://colab.research.google.com/drive/1UoR2NX5KplOjlCp84CRd74e7cIqOdUWA?usp=sharing
+Youtube - https://youtu.be/rcTfs7zdqcU
 
 Automatic feature engineering -> https://colab.research.google.com/drive/1B9vCQE8M0m0Y58dNZk-MCuIYnelclFvZ?usp=sharing
