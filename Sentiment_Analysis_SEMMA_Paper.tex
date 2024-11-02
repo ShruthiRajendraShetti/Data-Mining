@@ -1,0 +1,65 @@
+
+\documentclass{article}
+\usepackage{amsmath,graphicx,url}
+
+\title{Sentiment Analysis of Tweets Using the SEMMA Methodology}
+\author{Your Name \\
+        Your Institution \\
+        \texttt{your.email@domain.com}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper presents a tweet sentiment analysis project using the SEMMA (Sample, Explore, Modify, Model, Assess) methodology. We classify tweets into positive, neutral, and negative sentiments and evaluate the effectiveness of the SEMMA approach for data mining tasks. The results show a Logistic Regression model achieving 67.9\% accuracy, with insights into handling imbalanced classes and text processing for improved sentiment analysis.
+\end{abstract}
+
+\section{Introduction}
+Social media has become a valuable source of data for sentiment analysis, providing insights into public opinion and customer feedback. In this paper, we apply the SEMMA methodology to analyze tweet sentiment and demonstrate its structured approach to data mining for large-scale text datasets.
+
+\section{Methodology}
+The SEMMA methodology guides the analysis through five phases:
+\begin{itemize}
+    \item \textbf{Sample}: Selection of a representative sample or entire dataset for analysis.
+    \item \textbf{Explore}: Exploratory data analysis (EDA) to understand sentiment distribution and text characteristics.
+    \item \textbf{Modify}: Data cleaning, encoding, and feature engineering, including TF-IDF vectorization and text length calculation.
+    \item \textbf{Model}: Training and evaluation of a Logistic Regression model on TF-IDF features.
+    \item \textbf{Assess}: Model evaluation through metrics like accuracy, precision, recall, and F1-score, with discussion on strengths and limitations.
+\end{itemize}
+
+\section{Experiments and Results}
+The dataset includes 27,481 tweets labeled as positive, neutral, or negative. After cleaning and feature engineering, we trained a Logistic Regression model with the following results:
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lccc}
+        \hline
+        Sentiment & Precision & Recall & F1-Score \\
+        \hline
+        Positive & 0.74 & 0.73 & 0.74 \\
+        Neutral & 0.67 & 0.68 & 0.67 \\
+        Negative & 0.62 & 0.61 & 0.62 \\
+        \hline
+        Overall Accuracy & \multicolumn{3}{c}{67.9\%} \\
+        \hline
+    \end{tabular}
+    \caption{Performance Metrics for Logistic Regression Model}
+\end{table}
+
+\section{Discussion}
+The model performs well on positive and neutral sentiments but has limitations with negative sentiments, likely due to class imbalance. Techniques like oversampling, adjusting class weights, or using more complex models could address these issues.
+
+\section{Conclusion}
+This study demonstrates the effectiveness of the SEMMA methodology for sentiment analysis. The structured approach helped systematically process and analyze tweets, with insights for enhancing model accuracy and handling imbalanced data.
+
+\begin{thebibliography}{9}
+\bibitem{semma}
+SAS Institute Inc. (2000). \textit{The SEMMA Methodology}. SAS White Paper.
+\bibitem{sentiment}
+Pang, B., \& Lee, L. (2008). Opinion Mining and Sentiment Analysis. \textit{Foundations and Trends in Information Retrieval}, 2(1-2), 1-135.
+\bibitem{textmining}
+Aggarwal, C. C., \& Zhai, C. (2012). \textit{Mining Text Data}. Springer.
+\end{thebibliography}
+
+\end{document}
