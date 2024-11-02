@@ -1,11 +1,33 @@
-# Data-Mining
+# KDD 
 
-Assignment 1.1
-Colab Link - https://colab.research.google.com/drive/1xa1m0VpRoDkOYJWRFMT62eZqAf8a5DHP?usp=sharing
+1. Selection
+Objective: Identify and select relevant data for sentiment analysis.
+Action:
+Use the original text, sentiment, and possibly selected_text columns as the primary inputs.
+Ensure that only complete records are selected by removing rows with missing values in these key columns.
 
-Assignment 1.2 
-Click this link to watch the Demo of Github copilot -  https://youtu.be/5T78PV6in-Y
+2. Preprocessing
+Objective: Clean and prepare the text data, removing noise and ensuring quality.
+Steps:
+Text Cleaning: Similar to CRISP-DM, apply text cleaning (removing URLs, mentions, punctuation, and special characters).
+Handling Missing Values: Remove or fill any remaining missing values in the text and sentiment columns.
 
+3. Transformation
+Objective: Convert the cleaned data into a format suitable for machine learning.
+Steps:
+Encoding: Encode the sentiment labels into numerical values.
+Feature Engineering: Use techniques like TF-IDF to create vectorized representations of the text.
+Scaling: Scale any additional features (e.g., text length) if necessary.
 
-Assignment 1.3
-Click this link to watch the Demo of Sentiment Analysis using Akkio.com - https://youtu.be/6_rJptY64DE
+4. Data Mining
+Objective: Apply machine learning models to classify tweet sentiments.
+Model Choices:
+Use a baseline model, such as Logistic Regression or Support Vector Machine, to classify tweets as positive, negative, or neutral.
+Hyperparameter Tuning: Optimize the model by tuning parameters (e.g., regularization strength for Logistic Regression, kernel choice for SVM).
+
+5. Interpretation/Evaluation
+Objective: Evaluate and interpret the results to ensure they align with the original goals.
+Metrics:
+Use metrics such as accuracy, precision, recall, and F1-score.
+Insights:
+Highlight strengths and limitations, especially how well the model performs across different sentiment classes.
