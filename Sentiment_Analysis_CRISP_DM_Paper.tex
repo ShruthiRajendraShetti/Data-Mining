@@ -1,0 +1,66 @@
+
+\documentclass{article}
+\usepackage{amsmath,graphicx,url}
+
+\title{Sentiment Analysis of Tweets Using the CRISP-DM Methodology}
+\author{Your Name \\
+        Your Institution \\
+        \texttt{your.email@domain.com}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper presents a sentiment analysis project on Twitter data using the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology. We analyze tweets to classify sentiments as positive, neutral, or negative and evaluate the effectiveness of the CRISP-DM approach in systematically guiding data mining projects. Our results demonstrate the utility of CRISP-DM, with a Logistic Regression model achieving 67.9\% accuracy and providing insights into handling imbalanced classes and nuanced sentiment detection.
+\end{abstract}
+
+\section{Introduction}
+Sentiment analysis on social media has become a valuable tool for understanding public opinion and customer feedback. In this paper, we use the CRISP-DM methodology to systematically analyze tweet sentiment, showcasing how this structured approach can be applied to text data mining tasks.
+
+\section{Methodology}
+The CRISP-DM methodology consists of six phases:
+\begin{itemize}
+    \item \textbf{Business Understanding}: Define objectives and determine success criteria.
+    \item \textbf{Data Understanding}: Perform exploratory data analysis to understand sentiment distribution.
+    \item \textbf{Data Preparation}: Clean and preprocess the data, including encoding and feature engineering.
+    \item \textbf{Modeling}: Train a Logistic Regression model to classify tweet sentiments.
+    \item \textbf{Evaluation}: Assess model performance through accuracy, precision, recall, and F1-score metrics.
+    \item \textbf{Deployment}: Outline steps for potential model deployment in a real-world application.
+\end{itemize}
+
+\section{Experiments and Results}
+The dataset contains 27,481 tweets labeled as positive, neutral, or negative. Following data preparation and feature engineering, we trained a Logistic Regression model, achieving the following results:
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lccc}
+        \hline
+        Sentiment & Precision & Recall & F1-Score \\
+        \hline
+        Positive & 0.74 & 0.73 & 0.74 \\
+        Neutral & 0.67 & 0.68 & 0.67 \\
+        Negative & 0.62 & 0.61 & 0.62 \\
+        \hline
+        Overall Accuracy & \multicolumn{3}{c}{67.9\%} \\
+        \hline
+    \end{tabular}
+    \caption{Performance Metrics for Logistic Regression Model}
+\end{table}
+
+\section{Discussion}
+The model performs best on positive sentiments, while negative sentiments are more challenging due to class imbalance. The CRISP-DM methodology provided a structured approach, but improvements like handling imbalance and more advanced models could enhance results.
+
+\section{Conclusion}
+This paper demonstrates how CRISP-DM can be applied to sentiment analysis, providing a systematic framework from business understanding to evaluation. Our findings highlight the methodology’s effectiveness and areas for refinement in tweet sentiment analysis.
+
+\begin{thebibliography}{9}
+\bibitem{crispdm}
+Chapman, P., et al. (2000). \textit{CRISP-DM 1.0 Step-by-step data mining guide}. The CRISP-DM Consortium.
+\bibitem{sentiment}
+Pang, B., \& Lee, L. (2008). Opinion Mining and Sentiment Analysis. \textit{Foundations and Trends in Information Retrieval}, 2(1-2), 1-135.
+\bibitem{textmining}
+Aggarwal, C. C., \& Zhai, C. (2012). \textit{Mining Text Data}. Springer.
+\end{thebibliography}
+
+\end{document}
