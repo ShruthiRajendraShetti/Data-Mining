@@ -1,5 +1,7 @@
 # Knowledge Discovery in Databases (KDD) process for tweet sentiment analysis
 
+Medium Article - https://medium.com/@shruthi.rajendrashetti/medium-article-analyzing-tweet-sentiment-with-the-kdd-process-1b1e39ff1055
+
 ## 1. Selection
 Objective: Identify and select relevant data for sentiment analysis.
 Action:
