@@ -40,12 +40,6 @@ selected_text: Extracted portion of the tweet that reflects the sentiment.
 sentiment: Overall sentiment label of the tweet (neutral, positive, or negative).
 There is one missing entry in the text and selected_text columns.
 Sentiment distribution is worth examining to understand class balance.
-Next, let's proceed with a deeper exploratory analysis, including:
-
-Distribution of sentiment classes.
-Text length statistics.
-Visualizations for insights on text data.
-Let’s continue with these steps! ​​
 
 Distribution Of Sentiment Classes
 Insights from Data Understanding
