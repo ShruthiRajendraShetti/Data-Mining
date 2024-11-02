@@ -80,3 +80,44 @@ Rationale: This split allows us to train the model and then validate it on unsee
 5. Standardization and Scaling
 Action: Scale the text_length and selected_text_length features, if used, to bring them to a similar scale, typically using standardization (z-score normalization).
 Rationale: Scaling helps prevent certain features from dominating others due to their range, improving model performance.
+
+# D. MODELING
+In the Modeling Phase, we’ll select and train a model suitable for sentiment classification. Since this is a multiclass classification task, we can start with a few baseline models and compare their performance. I’ll begin by implementing a Logistic Regression model as a baseline and evaluate its performance. 
+
+Steps:
+Train a Logistic Regression Model.
+Evaluate the Model on the test set using accuracy, precision, recall, and F1-score.
+Compare Results and adjust as needed.
+Let’s proceed with this approach.
+
+Model Performance
+The Logistic Regression model achieved:
+
+Accuracy: 67.9%
+Precision, Recall, F1-score:
+Negative: F1-score of 0.62
+Neutral: F1-score of 0.68
+Positive: F1-score of 0.74
+The model performs best on the positive class, with lower performance on the negative class, likely due to class imbalance and language complexity.
+
+# E. Evaluation Phase for Tweet Sentiment Analysis
+In the Evaluation Phase, we’ll assess the model's performance and interpret its practical utility. Here’s how we’ll approach this:
+
+1. Performance Metrics Review
+Accuracy: 67.9%, indicating that the model correctly predicts sentiment for nearly 68% of the test tweets.
+Precision, Recall, and F1-Score: These scores vary across the three classes (negative, neutral, positive). The F1-score provides a balanced measure of precision and recall, helping evaluate each class’s performance:
+Positive sentiment performed best (F1-score: 0.74), suggesting the model can reliably detect positive sentiments.
+Neutral sentiment also showed solid performance (F1-score: 0.68), while negative was slightly weaker (F1-score: 0.62), likely due to data imbalance.
+
+2. Model Interpretation
+Strengths:
+Good performance on positive and neutral sentiments.
+Logistic Regression’s interpretability helps identify influential words or phrases impacting predictions.
+Limitations:
+Lower performance on negative sentiment might miss critical user concerns.
+Logistic Regression may not capture complex patterns, potentially limiting its effectiveness for nuanced language.
+
+3. Potential Improvements
+Class Balancing Techniques: Use techniques like oversampling or weighted loss to address the imbalance in classes.
+Advanced Model Exploration: A more complex model (e.g., Support Vector Machine or Random Forest) could capture subtler nuances.
+Feature Engineering: Experiment with n-grams or embeddings (like Word2Vec or BERT) to enrich feature representation.
