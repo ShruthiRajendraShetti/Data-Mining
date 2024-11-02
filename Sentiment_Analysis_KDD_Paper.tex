@@ -1,0 +1,65 @@
+
+\documentclass{article}
+\usepackage{amsmath,graphicx,url}
+
+\title{Sentiment Analysis of Tweets Using the KDD Methodology}
+\author{Your Name \\
+        Your Institution \\
+        \texttt{your.email@domain.com}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper presents a tweet sentiment analysis project using the KDD (Knowledge Discovery in Databases) methodology. We classify tweets into positive, neutral, and negative sentiments and evaluate the effectiveness of KDD for data mining tasks. Our results show a Logistic Regression model achieving 67.9\% accuracy, with insights into handling imbalanced classes and feature engineering for improved sentiment analysis.
+\end{abstract}
+
+\section{Introduction}
+Social media sentiment analysis offers significant insights into public opinion. This study applies the KDD methodology to analyze tweet sentiments, demonstrating how this structured approach facilitates effective data mining for large-scale text data.
+
+\section{Methodology}
+The KDD process involves five phases:
+\begin{itemize}
+    \item \textbf{Selection}: Identify relevant data and select necessary features.
+    \item \textbf{Preprocessing}: Clean and prepare data by handling missing values and noise.
+    \item \textbf{Transformation}: Convert text data to TF-IDF features and add additional informative features.
+    \item \textbf{Data Mining}: Train a Logistic Regression model for sentiment classification.
+    \item \textbf{Interpretation/Evaluation}: Evaluate model results and identify potential improvements.
+\end{itemize}
+
+\section{Experiments and Results}
+The dataset contains 27,481 tweets categorized by sentiment. After transformation and feature engineering, a Logistic Regression model was trained, yielding the following performance:
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lccc}
+        \hline
+        Sentiment & Precision & Recall & F1-Score \\
+        \hline
+        Positive & 0.74 & 0.73 & 0.74 \\
+        Neutral & 0.67 & 0.68 & 0.67 \\
+        Negative & 0.62 & 0.61 & 0.62 \\
+        \hline
+        Overall Accuracy & \multicolumn{3}{c}{67.9\%} \\
+        \hline
+    \end{tabular}
+    \caption{Performance Metrics for Logistic Regression Model}
+\end{table}
+
+\section{Discussion}
+The KDD methodology provided a structured framework for sentiment analysis, although improvements in class handling and feature representation could enhance accuracy, especially for negative sentiments.
+
+\section{Conclusion}
+The KDD process effectively guided our sentiment analysis project from data selection to interpretation. The structured approach highlighted areas for model refinement and underscored the KDD methodology’s role in efficient data mining for sentiment analysis.
+
+\begin{thebibliography}{9}
+\bibitem{kdd}
+Fayyad, U., et al. (1996). \textit{From Data Mining to Knowledge Discovery in Databases}. AI Magazine.
+\bibitem{sentiment}
+Pang, B., \& Lee, L. (2008). Opinion Mining and Sentiment Analysis. \textit{Foundations and Trends in Information Retrieval}, 2(1-2), 1-135.
+\bibitem{textmining}
+Aggarwal, C. C., \& Zhai, C. (2012). \textit{Mining Text Data}. Springer.
+\end{thebibliography}
+
+\end{document}
