@@ -1,5 +1,7 @@
 # CRISP-DM
 
+Medium Article - https://medium.com/@shruthi.rajendrashetti/medium-article-sentiment-analysis-on-tweets-using-crisp-dm-973444b494bc
+
 # A. Business Understanding Phase for Tweet Sentiment Analysis
 
 1. Project Objective
