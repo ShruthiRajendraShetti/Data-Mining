@@ -1,4 +1,5 @@
 # SEMMA (Sample, Explore, Modify, Model, Assess) methodology for tweet sentiment analysis 
+Medium Article - https://medium.com/@shruthi.rajendrashetti/medium-article-analyzing-tweet-sentiment-using-the-semma-methodology-c2982c2271c6
 
 SEMMA is a data mining framework primarily used for large-scale data analysis and focuses on a systematic approach to model building.
 
