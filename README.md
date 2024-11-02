@@ -1,6 +1,6 @@
 # CRISP-DM
 
-Business Understanding Phase for Tweet Sentiment Analysis
+# A. Business Understanding Phase for Tweet Sentiment Analysis
 
 1. Project Objective
 The goal of this project is to classify tweets by their sentiment, identifying each tweet as either positive, negative, or neutral.
@@ -29,3 +29,33 @@ Real-Time Application: For real-time sentiment analysis, the model may need opti
 Data Quality: Noise in tweets (e.g., abbreviations, emojis) may impact the model’s accuracy.
 Changing Language Patterns: Slang and sentiment expressions evolve over time, requiring periodic model retraining.
 Bias: Potential bias in the dataset may lead to inaccurate predictions, especially for underrepresented topics or groups.
+
+# B. Data Understanding Phase
+From the initial exploration:
+
+The dataset has 27,481 rows and 4 columns:
+textID: Unique identifier for each tweet.
+text: Full text of the tweet.
+selected_text: Extracted portion of the tweet that reflects the sentiment.
+sentiment: Overall sentiment label of the tweet (neutral, positive, or negative).
+There is one missing entry in the text and selected_text columns.
+Sentiment distribution is worth examining to understand class balance.
+Next, let's proceed with a deeper exploratory analysis, including:
+
+Distribution of sentiment classes.
+Text length statistics.
+Visualizations for insights on text data.
+Let’s continue with these steps! ​​
+
+Distribution Of Sentiment Classes
+Insights from Data Understanding
+Sentiment Distribution:
+
+The dataset shows an imbalanced distribution of sentiments, with neutral being the most frequent class, followed by negative and positive.
+Text Length:
+The average length of a tweet (text_length) is around 68 characters, while the average length of the selected_text is 37 characters.
+Some tweets are as short as 3 characters, and some reach the Twitter limit of 141 characters, which is useful for model selection and feature engineering.
+These insights suggest that:
+
+We might need to address the class imbalance during the modeling phase.
+Feature engineering may include text length as a feature to potentially improve model performance.
