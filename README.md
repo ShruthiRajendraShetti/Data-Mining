@@ -43,6 +43,8 @@ sentiment: Overall sentiment label of the tweet (neutral, positive, or negative)
 There is one missing entry in the text and selected_text columns.
 Sentiment distribution is worth examining to understand class balance.
 
+![output](https://github.com/user-attachments/assets/8902d92f-5a0b-4d5e-b333-95333dcc1ac7)
+
 Distribution Of Sentiment Classes
 Insights from Data Understanding
 Sentiment Distribution:
