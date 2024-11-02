@@ -53,3 +53,30 @@ These insights suggest that:
 
 We might need to address the class imbalance during the modeling phase.
 Feature engineering may include text length as a feature to potentially improve model performance.
+
+# C. Data Preparation Phase for Tweet Sentiment Analysis
+In this phase, we’ll prepare the cleaned dataset for modeling by addressing any remaining issues and transforming it into a format suitable for machine learning.
+
+1. Handling Missing Values
+Action: Since text and selected_text columns have one missing value each, we’ll remove these rows or fill them if necessary.
+Rationale: Missing values in text data can interfere with model training.
+
+2. Encoding Sentiment Labels
+Action: Convert the sentiment labels (positive, negative, neutral) into numerical format for model compatibility. This can be done through label encoding:
+positive = 1
+neutral = 0
+negative = -1
+Rationale: Encoding helps the model interpret categorical labels in numerical form.
+
+3. Feature Engineering
+Text Length: Use text_length and selected_text_length as potential features, as longer tweets may carry different sentiment than shorter ones.
+TF-IDF Vectors: Transform the cleaned_text column into numerical representations using TF-IDF (Term Frequency-Inverse Document Frequency). This method gives weight to important words in each tweet based on their frequency across the dataset.
+Rationale: These features provide numerical input for models and help capture important aspects of tweet content.
+
+4. Splitting the Data
+Action: Split the dataset into training and test sets, typically with a 70-80% training and 20-30% test ratio.
+Rationale: This split allows us to train the model and then validate it on unseen data to gauge generalization.
+
+5. Standardization and Scaling
+Action: Scale the text_length and selected_text_length features, if used, to bring them to a similar scale, typically using standardization (z-score normalization).
+Rationale: Scaling helps prevent certain features from dominating others due to their range, improving model performance.
