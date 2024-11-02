@@ -2,7 +2,7 @@
 
 SEMMA is a data mining framework primarily used for large-scale data analysis and focuses on a systematic approach to model building.
 
-## 1. Sample
+## 1. SAMPLE
 Objective: Select a representative sample of the dataset for analysis.
 Action:
 Since our dataset is already manageable in size, we can use the full dataset. However, for large-scale projects, we could sample a portion of the data to test the process before scaling.
