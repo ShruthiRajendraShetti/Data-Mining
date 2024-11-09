@@ -7,6 +7,8 @@ Colab Link - https://colab.research.google.com/drive/1pXqWu8Y5RVerPEaS-vvLOJ2Z01
 Assignment 2. Apache Beam-Auto EDA with your favorite tool
 
 Colab Link - https://colab.research.google.com/drive/19utpHOKRuvouEBT7M9vnADtTvkhQu6uu?usp=sharing
+![image](https://github.com/user-attachments/assets/d0cc0835-a429-4f3d-9155-a45da6ea66ee)
+
 
 Assignment 1.3
 
