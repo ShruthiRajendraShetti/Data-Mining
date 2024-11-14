@@ -5,7 +5,7 @@ Assignment 1.A https://colab.research.google.com/drive/18Xdy4mp8eWvDxvUgTMn4WLk_
 Assignment 1.B https://colab.research.google.com/drive/1JLqgmrn0UtDgiWwb30KSDGQs2Y4WJPaK?usp=sharing
 Assignment 1.C https://colab.research.google.com/drive/1fOuh5tdGvyhdFhZ05Z9Q0ilm9KGGQaVv?usp=sharing
 Assignment 1.D https://colab.research.google.com/drive/1Lo_022rrxU0jud7axeSvoebXKeGMOBcW?usp=sharing
-Assignment 1.E
+Assignment 1.E https://colab.research.google.com/drive/10aRKlZDtORiwFCT3JgtnFQBuExlVx2tO?usp=sharing
 
 # 2. Tabula:
 Assignment 2.A
