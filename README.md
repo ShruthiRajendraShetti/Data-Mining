@@ -1,4 +1,4 @@
-# Data Mining Assignment - Explore TimeGPT, Tabula and Relational Deep Learning- 
+# Data Mining Assignment - Explore TimeGPT, Tabula and Relational Deep Learning
 
 ## 1. TimeGPT
 - **Assignment 1.A**: [Link to Colab](https://colab.research.google.com/drive/18Xdy4mp8eWvDxvUgTMn4WLk_dSVxm2Kn?usp=sharing)
