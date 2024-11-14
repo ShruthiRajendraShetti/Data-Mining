@@ -2,7 +2,7 @@
 
 # 1. TimeGPT:
 Assignment 1.1 https://colab.research.google.com/drive/18Xdy4mp8eWvDxvUgTMn4WLk_dSVxm2Kn?usp=sharing
-Assignment 1.2
+Assignment 1.2 https://colab.research.google.com/drive/1JLqgmrn0UtDgiWwb30KSDGQs2Y4WJPaK?usp=sharing
 Assignment 1.3
 Assignment 1.4
 Assignment 1.5
