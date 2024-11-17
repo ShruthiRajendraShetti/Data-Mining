@@ -10,8 +10,8 @@ Youtube Playlist Link - https://www.youtube.com/playlist?list=PLWkNaHp0TBuUvjhTn
 - **Assignment 1.E**: [Link to Colab](https://colab.research.google.com/drive/10aRKlZDtORiwFCT3JgtnFQBuExlVx2tO?usp=sharing)
 
 ## 2. Tabula
-- **Assignment 2.A**: [Link to Colab](https://colab.research.google.com/drive/1I6gsyZ-L0_QeTbb9dC8UlGggs-fHqERm?usp=sharing)
-- **Assignment 2.B**: [Link to Colab](https://colab.research.google.com/drive/10ireo934lkFRSMkNLYj4ZPHFIJeO9gRo?usp=sharing)
+- **Assignment 2.A**: [Link to Colab](https://colab.research.google.com/drive/1H3YGZAX4viGnJ2cUJS1icsM1l9TpnVT8?usp=sharing)
+- **Assignment 2.B**: [Link to Colab](https://colab.research.google.com/drive/1ni35fThv41kXUsjQGzw-VfZjsyGzqPbC?usp=sharing)
 
 ## 3. RDL and Relbench
 - **Assignment 3.A**: [Link to Colab](https://colab.research.google.com/drive/1sdMuDNgva_gBXXt6OOyYxrvzmlz-2K-z?usp=sharing)
