@@ -18,12 +18,13 @@ Assignment 1.5
 https://colab.research.google.com/drive/1WIFlRbf-NoJlDZlnBqpJrRmxU5yFvUcX?usp=sharing
 
 Assignment 1.6
-
+https://colab.research.google.com/drive/1g-54w4QW-N1E_ZGjpcWR55CRmQGMDef9?usp=sharing
 
 Assignment 1.7
-
+https://colab.research.google.com/drive/1xpe6F0kVWjcpexly23nfp1Mxpkbaqsgn?usp=sharing
 
 Assignment 1.8
-
+https://colab.research.google.com/drive/12r2P0rVwMX5w8I-V-OMRvU2gXwZtRTz1?usp=sharing
 
 Assignment 1.9
+https://colab.research.google.com/drive/1UvZ6RMrhGTkimW7XI123vxoHzG6vGDtb?usp=sharing
