@@ -1,10 +1,9 @@
 # **Clustering Assignment**
 
-This document contains links to various assignments illustrating clustering techniques using different approaches and data modalities. Explore the assignments below to deepen your understanding of clustering algorithms.
----
+--- 
 
-## **Youtube Playlist **  
-[👉 Playlist]https://www.youtube.com/playlist?list=PLWkNaHp0TBuWJquskO-rlQaGQ33ZlL-x6
+## **Youtube Playlist**  
+[👉 Click here for Playlist](https://www.youtube.com/playlist?list=PLWkNaHp0TBuWJquskO-rlQaGQ33ZlL-x6)
 
 ---
 
