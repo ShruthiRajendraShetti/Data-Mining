@@ -1,6 +1,7 @@
 # Clustering Assignment
 
 Assignment 1.1
+https://colab.research.google.com/drive/1kSqmjXrQ4HoAKPlQ6eLqHBjDLdA2OhAK?usp=sharing
 
 
 Assignment 1.2 
