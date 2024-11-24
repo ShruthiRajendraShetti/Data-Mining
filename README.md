@@ -24,7 +24,7 @@ Assignment 1.7
 https://colab.research.google.com/drive/1xpe6F0kVWjcpexly23nfp1Mxpkbaqsgn?usp=sharing
 
 Assignment 1.8
-https://colab.research.google.com/drive/12r2P0rVwMX5w8I-V-OMRvU2gXwZtRTz1?usp=sharing
+https://colab.research.google.com/drive/1HDrXRdGmKcVF6bJz7GdUknDgGjR_3I0B?usp=sharing
 
 Assignment 1.9
 https://colab.research.google.com/drive/1UvZ6RMrhGTkimW7XI123vxoHzG6vGDtb?usp=sharing
