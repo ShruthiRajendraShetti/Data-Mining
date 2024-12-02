@@ -1,5 +1,7 @@
 # Advanced Dimensionality Reduction
 
+# Youtube Playlist - https://www.youtube.com/playlist?list=PLWkNaHp0TBuWPMIVCWIMJQ060udvRNpRT
+
 # Assignment 1.1
 ## Colab Link - https://colab.research.google.com/drive/1LgRzPAplVq09NJC3YYvZmI0aUX-nsogY?usp=sharing
 
