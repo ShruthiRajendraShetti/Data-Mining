@@ -64,10 +64,3 @@ This project explores popular dimensionality reduction techniques, including PCA
 - t-SNE and UMAP excelled in forming distinct clusters for image datasets.
 - ISOMAP was effective in revealing underlying geometry but required careful tuning.
 
-## Instructions
-1. Open the notebook in Colab or Jupyter Notebook.
-2. Install required libraries using:
-   ```python
-   !pip install umap-learn matplotlib seaborn plotly
-
-
