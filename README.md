@@ -1,7 +1,7 @@
 # Advanced Dimensionality Reduction
 
 # Assignment 1.1
-Colab Link - https://colab.research.google.com/drive/1LgRzPAplVq09NJC3YYvZmI0aUX-nsogY?usp=sharing
+## Colab Link - ### https://colab.research.google.com/drive/1LgRzPAplVq09NJC3YYvZmI0aUX-nsogY?usp=sharing
 
 ## Overview
 This project demonstrates various dimensionality reduction techniques on both synthetic and real datasets (image and tabular). The objective is to explore the strengths and weaknesses of different methods and provide meaningful insights through visualizations.
