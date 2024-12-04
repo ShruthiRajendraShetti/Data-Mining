@@ -5,7 +5,7 @@
 ### **Quick Links**
 - **[Research Paper](https://arxiv.org/pdf/2411.18759)**  
 - **[Medium Article](https://medium.com/@shruthi.rajendrashetti/classification-of-deceased-patients-from-nondeceased-patients-using-random-forest-and-support-5717af839a4f)**  
-- **[Slideshare Presentation](#)**  
+- **[Slideshare Presentation](https://www.slideshare.net/slideshow/predicting-covid-19-patient-survival-using-random-forest-and-support-vector-machine-classifiers/273826976)**  
 - **[Video Presentation](#)**  
 
 ---
