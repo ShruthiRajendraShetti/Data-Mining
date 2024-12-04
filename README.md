@@ -9,7 +9,7 @@
 - **[Video Presentation](#)**  
 
 ---
-This project explores the use of machine learning to classify COVID-19 patients based on survival outcomes using demographic, laboratory, and preexisting condition data. The research employs Support Vector Machines (SVM) and Random Forest (RF) classifiers to identify critical predictors and achieve high accuracy in survival predictions.
+#### This project explores the use of machine learning to classify COVID-19 patients based on survival outcomes using demographic, laboratory, and preexisting condition data. The research employs Support Vector Machines (SVM) and Random Forest (RF) classifiers to identify critical predictors and achieve high accuracy in survival predictions.
 ---
 ## **Objective**
 The goal of this project is to:
@@ -52,4 +52,4 @@ The goal of this project is to:
    - 10-fold cross-validation to ensure generalizability.
 
 ---
-
+#### Author: Shruthi Rajendra Shetti
