@@ -1,6 +1,7 @@
 # Short Story Assignment
 ## Predicting COVID-19 Patient Survival Using Random Forest and Support Vector Machine Classifiers
-
+# **Predicting COVID-19 Patient Survival Using Machine Learning**
+---
 This project explores the use of machine learning to classify COVID-19 patients based on survival outcomes using demographic, laboratory, and preexisting condition data. The research employs Support Vector Machines (SVM) and Random Forest (RF) classifiers to identify critical predictors and achieve high accuracy in survival predictions.
 
 ### Key Highlights
