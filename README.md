@@ -30,6 +30,12 @@ The goal of this project is to:
 4. INR Levels
 5. Severe Sepsis
 
+### **Data Mining Techniques used: **
+ - Feature Selection
+ - Normalization
+ - Outlier Detection
+ - Dimensionality Reduction
+
 ### **Model Accuracy**
 - **SVM**: 99.78%
 - **Random Forest**: 100%
