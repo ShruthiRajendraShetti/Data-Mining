@@ -1,61 +1,56 @@
-# SHORT STORY ASSIGNMENT
----
-# **Predicting COVID-19 Patient Survival Using Random Forest and Support Vector Machine Classifiers**
----
-### **Quick Links**
-- **[Research Paper](https://arxiv.org/pdf/2411.18759)**  
-- **[Medium Article](https://medium.com/@shruthi.rajendrashetti/classification-of-deceased-patients-from-nondeceased-patients-using-random-forest-and-support-5717af839a4f)**  
-- **[Slideshare Presentation](https://www.slideshare.net/slideshow/predicting-covid-19-patient-survival-using-random-forest-and-support-vector-machine-classifiers/273826976)**  
-- **[Video Presentation](https://youtu.be/z0djMN0fgdQ)**  
+# 🎓 **Decision Trees and Ensemble Assignment**
+
+## 📹 **Video Walkthrough**
+- **YouTube Playlist:** [Decision Trees and Ensemble Techniques](https://youtube.com/playlist?list=PLWkNaHp0TBuUiliTSleEcW07soR83wbuX&si=JpRwfEIZUj7Iw8yc)  
 
 ---
-#### This project explores the use of machine learning to classify COVID-19 patients based on survival outcomes using demographic, laboratory, and preexisting condition data. The research employs Support Vector Machines (SVM) and Random Forest (RF) classifiers to identify critical predictors and achieve high accuracy in survival predictions.
----
-## **Objective**
-The goal of this project is to:
-- Identify critical factors influencing patient survival.
-- Demonstrate the application of machine learning in healthcare decision-making.
-- Provide actionable insights for resource allocation in critical care.
----
-## Key Highlights
-### **Dataset**
-- **Size**: 9,366 patient records.
-- **Attributes**: Age, gender, lab results, comorbidities, and more.
-- **Source**: De-identified COVID-19 patient data from Cerner AWS.
 
-### **Top Predictors of Survival**
-1. Oxygen Saturation
-2. Erythrocyte Count
-3. Acute Kidney Failure
-4. INR Levels
-5. Severe Sepsis
+## 🧩 **Implementations**
 
-### **Data Mining Techniques used:**
- - Feature Selection
- - Normalization
- - Outlier Detection
- - Dimensionality Reduction
-
-### **Model Accuracy**
-- **SVM**: 99.78%
-- **Random Forest**: 100%
-
-### **Visual Results**
-- Feature importance rankings.
-- Clusters of deceased vs. non-deceased patients.
-- ROC curve demonstrating model performance.
-- ---
-
-## **Technical Approach**
-1. **Data Preprocessing**:
-   - Normalization of lab values.
-   - Feature selection using ExtraTreeClassifier.
-   - Handling outliers with Local Outlier Factor (LOF).
-2. **Machine Learning Models**:
-   - **SVM**: Kernel-based classification with RBF kernel.
-   - **Random Forest**: Ensemble decision trees for robustness.
-3. **Validation**:
-   - 10-fold cross-validation to ensure generalizability.
+### 🌳 **1. GBM Implementation**  
+- **Google Colab Link:** [GBM Implementation](https://colab.research.google.com/drive/1mKMiYPkDoypaIoZL4ahwFpuNi_hInToK?usp=sharing)
 
 ---
-#### Author: Shruthi Rajendra Shetti
+
+### 🌲 **2. Random Forest Implementation**  
+- **Google Colab Link:** [Random Forest Implementation](https://colab.research.google.com/drive/1M7n-rBSIZww6NozYNZwXIy5RPDdOZZo4?usp=sharing)
+
+---
+
+### ⚡ **3. AdaBoost Implementation**  
+- **Google Colab Link:** [AdaBoost Implementation](https://colab.research.google.com/drive/16dvAk3dOdsnHhXyJYGeqr1OCodvaMfYe?usp=sharing)
+
+---
+
+### 🗂️ **4. Decision Trees Implementation**  
+- **Google Colab Link:** [Decision Trees Implementation](https://colab.research.google.com/drive/1GlJt_Wg5N4hj-KtHy5C5ZaGigTnq0R9T?usp=sharing)
+
+---
+
+## 🔍 **5. GBM Techniques**
+
+### 🧑‍🏫 **5A. GBM Classifier Techniques**  
+- **Google Colab Link:** [GBM Classifier Techniques](https://colab.research.google.com/drive/1KSfss5BqKAK0o2PgVAkxFaJa3vIak-aF?usp=sharing)
+
+---
+
+### 📊 **5B. Gradient Boost Regression Techniques**  
+- **Google Colab Link:** [Gradient Boost Regression Techniques](https://colab.research.google.com/drive/1EoVpKtfGjeEjVTQJnU8Huzv3K90_DD81?usp=sharing)
+
+---
+
+### 📈 **5C. Gradient Boost Ranking Techniques**  
+- **Google Colab Link:** [Gradient Boost Ranking Techniques](https://colab.research.google.com/drive/1PUF0NLemDE6fHhfjNodGiWNy9B5t0ydV?usp=sharing)
+
+---
+
+## 🎯 **Summary**  
+This assignment demonstrates the implementation and advanced techniques of:  
+- Gradient Boosting Machine (GBM)  
+- Random Forest  
+- AdaBoost  
+- Decision Trees  
+
+Each technique is implemented in Google Colab, with corresponding notebooks linked above. The YouTube playlist provides a comprehensive walkthrough of all implementations.
+
+---
