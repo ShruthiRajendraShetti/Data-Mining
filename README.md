@@ -19,7 +19,7 @@ This project demonstrates various dimensionality reduction techniques on both sy
 2. **t-SNE (t-Distributed Stochastic Neighbor Embedding)**
 3. **UMAP (Uniform Manifold Approximation and Projection)**
 4. **ISOMAP**
-5. **Other Techniques** (if implemented, e.g., MDS, Autoencoders)
+5. **Other Techniques**
 
 ## Results and Observations
 | **Technique** | **Dataset**       | **Strengths**                     | **Weaknesses**                     |
